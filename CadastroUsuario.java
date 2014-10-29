@@ -47,7 +47,7 @@ public class CadastroUsuario extends JFrame {
 	 */
 	public CadastroUsuario() {
 		setResizable(false);
-		setTitle("Cadastro de Usuários");
+		setTitle("Cadastro de Usu\u00E1rios");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 592, 326);
 		contentPane = new JPanel();
@@ -108,7 +108,7 @@ public class CadastroUsuario extends JFrame {
 		JEditorPane ativos = new JEditorPane();
 		ativos.setEditable(false);
 		panel_3.add(ativos);
-		ativos.setText("Usuários Ativos :");
+		ativos.setText("Usu\u00E1rios Ativos :");
 		
 		JPanel panel_5 = new JPanel();
 		panel_5.setBorder(new LineBorder(new Color(160, 160, 160)));
@@ -120,7 +120,7 @@ public class CadastroUsuario extends JFrame {
 		panel_5.add(panel);
 		panel.setLayout(new GridLayout(3, 2, 10, 10));
 		
-		JLabel lblUserText = new JLabel("Usuário:");
+		JLabel lblUserText = new JLabel("Usu\u00E1rio:");
 		panel.add(lblUserText);
 		
 		textUserClear = new JTextField();

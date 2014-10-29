@@ -1,4 +1,4 @@
-package gui;
+
 
 import java.awt.BorderLayout;
 import java.awt.EventQueue;
@@ -28,9 +28,7 @@ public class CadastroUsuario extends JFrame {
 	private JTextField newUser;
 	private JPasswordField passwordClear;
 
-	/**
-	 * Launch the application.
-	 */
+
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
